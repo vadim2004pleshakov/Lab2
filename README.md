@@ -186,8 +186,8 @@ public class Main {
             for(int i=0;i<m;i++){
                 for(int j=0;j<n;j++){
                     unics[j]=a[j][i];}
-                min=9999;
-                max=-9999;
+                min=2147483647;
+                max=-2147483648;
                 cnt=0;//аналогично счёту уникальных выше, отдельно расматриваем стобцы
                 for (int k=0; k<n; k++){
                     if(unics[k]<min){
