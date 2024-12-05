@@ -154,8 +154,8 @@ public class Main {
             int pp = 0;
             //для подсчета уникальных
             int cnt = 0;
-            int min = 9999;
-            int max = -9999;
+            int min = 2147483647;
+            int max = -2147483648;
             out.println("Введите элементы массива, коих "+(m*n)+" штук:");
             for (int i=0; i<n; i++){//ввод массива
                 for (int j=0; j<m; j++){
